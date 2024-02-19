@@ -1,0 +1,46 @@
+{
+  "name": "h-toolset",
+  "version": "1.0.0",
+  "description": "前端常用工具函数封装",
+  "main": "dist/h-toolset.cjs.js",
+  "module": "dist/h-toolset.esm.js",
+  "browser": "dist/h-toolset.umd.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiet-red-maple/toolset.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "haoquanyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quiet-red-maple/toolset/issues"
+  },
+  "homepage": "https://github.com/quiet-red-maple/toolset#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "rollup": "^4.9.5",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.1.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
