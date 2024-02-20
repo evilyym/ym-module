@@ -1,5 +1,7 @@
 import resolve from 'rollup-plugin-node-resolve'
 import typescript from 'rollup-plugin-typescript2';
+import { terser } from 'rollup-plugin-minification';
+import cleanup from 'rollup-plugin-cleanup';
 
 export default {
   input: './src/index.ts', // 入口文件
@@ -21,5 +23,5 @@ export default {
       minifyInternalExports: true
     }
   ],
-  plugins: [typescript({ tsconfig: './tsconfig.json' }), resolve()]
+  plugins: [typescript({ tsconfig: './tsconfig.json' }),terser(), cleanup(), resolve()]
 }
