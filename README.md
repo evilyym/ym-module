@@ -28,3 +28,19 @@ import { Format, Validate } from "ym-vue-module";
 Format.formatMoney(12341234.246, "$", 2); // $12,341,234.25
 Validate.mobileCheck("123456"); // false
 ```
+
+mpn 发布命令
+```ts
+// patch：补丁号，修复bug，小变动，如 v1.0.0->v1.0.1
+npm version patch
+
+// minor：次版本号，增加新功能，如 v1.0.0->v1.1.0
+npm version minor
+
+// major：主版本号，不兼容的修改，如 v1.0.0->v2.0.0
+npm version major
+
+// 重新发布
+npm publish
+
+```
