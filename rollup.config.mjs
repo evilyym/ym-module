@@ -1,6 +1,6 @@
-import resolve from 'rollup-plugin-node-resolve'
+import resolve from '@rollup/plugin-node-resolve'
 import typescript from 'rollup-plugin-typescript2';
-import { terser } from 'rollup-plugin-minification';
+import terser from '@rollup/plugin-terser';
 import cleanup from 'rollup-plugin-cleanup';
 
 export default {
