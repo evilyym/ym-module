@@ -1,10 +1,10 @@
 {
-  "name": "h-toolset",
-  "version": "1.1.7",
-  "description": "前端常用工具函数封装",
-  "main": "dist/h-toolset.cjs.js",
-  "module": "dist/h-toolset.esm.js",
-  "browser": "dist/h-toolset.umd.js",
+  "name": "ym-toolset",
+  "version": "1.1.0",
+  "description": "学习工具包",
+  "main": "dist/ym-toolset.cjs.js",
+  "module": "dist/ym-toolset.esm.js",
+  "browser": "dist/ym-toolset.umd.js",
   "types": "src/index.d.ts",
   "files": [
     "src",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quiet-red-maple/toolset.git"
+    "url": "git+https://github.com/evilyym/ym-module.git"
   },
   "keywords": [
     "utils"
   ],
-  "author": "haoquanyu",
+  "author": "。。。",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quiet-red-maple/toolset/issues"
+    "url": "https://github.com/evilyym/ym-module/tree/main/issues"
   },
-  "homepage": "https://github.com/quiet-red-maple/toolset#readme",
+  "homepage": "https://github.com/evilyym/ym-module/tree/main#readme",
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4",
