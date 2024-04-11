@@ -1,0 +1,16 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  h-toolset:
+    specifier: ^1.1.7
+    version: 1.1.7
+
+packages:
+
+  /h-toolset@1.1.7:
+    resolution: {integrity: sha512-2NqipeQ77y4DG8sb2/OkIrJjQY0PzD/Snhou/rZyNFl4Y3FXK83C8m6AZJkUrs/TtTVajZY0WwSlio2QfGUInQ==}
+    dev: false
