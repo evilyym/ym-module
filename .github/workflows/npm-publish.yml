@@ -3,9 +3,6 @@
 
 name: Node.js Package
 
-env:
-  NPM_TOKEN:
-
 on:
   push: 
     branches:
