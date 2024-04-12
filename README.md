@@ -9,7 +9,7 @@
    * @returns number类型
    */
 
-  import { random } from 'h-toolset';
+  import { random } from 'ym-toolset';
 
   const rand = random(1, 10);
 ```
@@ -25,7 +25,7 @@
    * 默认规则，大于等于一天(24小时)展示'X天前；大于等于30天且小于365天展示'X个月前'；大于等于365天且展示'x年前'，否则按照传入参数规则展示
    */
 
-  import { formatPast } from 'h-toolset';
+  import { formatPast } from 'ym-toolset';
 
   console.log(formatPast("2024-2-16 11:11:11")); // 3天前
   console.log(formatPast("2023-12-12 11:11:11")); // 2个月前

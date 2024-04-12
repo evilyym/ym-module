@@ -8,17 +8,17 @@ export default {
   output: [
     {
       format: 'cjs', // 打包为commonjs格式
-      file: 'dist/h-toolset.cjs.js', // 打包后的文件路径名称
+      file: 'dist/ym-toolset.cjs.js', // 打包后的文件路径名称
       name: 'dutils' // 打包后的默认导出文件名称
     },
     {
       format: 'esm', // 打包为esm格式
-      file: 'dist/h-toolset.esm.js',
+      file: 'dist/ym-toolset.esm.js',
       name: 'dutils'
     },
     {
       format: 'umd', // 打包为umd通用格式
-      file: 'dist/h-toolset.umd.js',
+      file: 'dist/ym-toolset.umd.js',
       name: 'dutils',
       minifyInternalExports: true
     }

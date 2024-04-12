@@ -18,6 +18,6 @@ declare namespace hToolset {
   export function formatPast(date: String, type?: "default" | "-" | "/" | "." | "年月日" | "月日" | "年", zeroFillFlag?: Boolean): string
 }
 
-declare module 'h-toolset' {
+declare module 'ym-toolset' {
   export = hToolset;
 }
