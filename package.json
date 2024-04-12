@@ -1,6 +1,6 @@
 {
   "name": "ym-toolset",
-  "version": "1.1.17",
+  "version": "1.1.19",
   "description": "学习工具包",
   "main": "dist/ym-toolset.cjs.js",
   "module": "dist/ym-toolset.esm.js",
