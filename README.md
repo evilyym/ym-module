@@ -38,7 +38,3 @@
   console.log(formatPast("2023/8/08 11:32:01", "年")); // 2023年
 
 ```
-
-git
-
-https://github.com/evilyym/ym-module.git
