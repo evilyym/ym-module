@@ -5,7 +5,9 @@ on:
     branches: [ "master", "main" ]
   pull_request:
     branches: [ "master", "main"  ]
-
+    
+env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -27,6 +29,5 @@ jobs:
         npm install
         npm run build
         npm publish --access public
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
 
