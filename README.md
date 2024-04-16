@@ -69,6 +69,6 @@ const res = computeNumber(1.3, "-", 1.2)
   .next("+", 1.5)
   .next("*", 2.3)
   .next("/", 0.2).result;
-  
-console.log(res);
+
+console.log(res); // 18.4
 ```
