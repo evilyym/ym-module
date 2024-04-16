@@ -14,6 +14,19 @@
   const rand = random(1, 10);
 ```
 
+### 防抖+节流
+```js
+/**
+ * 节流函数，用于限制函数的调用频率。
+ * @param func 要节流的函数。
+ * @param delay 延迟的毫秒数，默认为200ms。
+ * @returns 返回一个节流后的函数。
+ */
+
+  import { throttle, debounce } from 'ym-toolset';
+
+```
+
 ### 时间转换
 ```js
 /**
